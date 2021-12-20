@@ -19,7 +19,7 @@ Some links:
 
 [Duck Duck Go](https://duckduckgo.com)
 [Another file](../markdown.md)
-[Another file](../test/another-dir/markdown.md)
+[Another branch](../../test/another-dir/markdown.md)
 
 
 
