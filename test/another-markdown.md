@@ -15,6 +15,12 @@ Another branch
 Another branch - absolute
 ![alt text](https://raw.githubusercontent.com/sufigaffar/test-markdown/test/another-dir/zeroheight.png "Title")
 
+Some links:
+
+[Duck Duck Go](https://duckduckgo.com)
+[Another file](../markdown.md)
+[Another file](../test/another-dir/markdown.md)
+
 
 
 
