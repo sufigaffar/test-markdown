@@ -2,24 +2,31 @@
   "color": {
     "Blue": {
       "Blue-10": {
+        "$type": "color",
         "$value": "#cde1fe"
       },
       "Blue-20": {
+        "$type": "color",
         "$value": "#93bffd"
       },
       "Blue-40": {
+        "$type": "color",
         "$value": "#5f9ffc"
       },
       "Blue-50": {
+        "$type": "color",
         "$value": "#3682f4"
       },
       "Blue-60": {
+        "$type": "color",
         "$value": "#1e64cd"
       },
       "Blue-80": {
+        "$type": "color",
         "$value": "#0e479e"
       },
       "Blue-90": {
+        "$type": "color",
         "$value": "#032d69"
       }
     },
