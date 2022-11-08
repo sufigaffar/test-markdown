@@ -7,7 +7,8 @@
       },
       "Blue-20": {
         "$type": "color",
-        "$value": "#93bffd"
+        "$value": "#93bffd",
+        "$description": "Hello",
       },
       "Blue-40": {
         "$type": "color",
