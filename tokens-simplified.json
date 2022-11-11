@@ -1,0 +1,14 @@
+{
+  "color": {
+    "Blue": {
+      "Highlighted": {
+        "$value": "{color.Utilities.brand}"
+      }
+    },
+    "Utilities": {
+      "brand": {
+        "$value": "blue"
+      }
+    }
+  }
+}
