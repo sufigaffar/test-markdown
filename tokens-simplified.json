@@ -1,14 +1,17 @@
 {
-  "color": {
-    "Blue": {
+  "color2": {
+    "Blue3": {
       "Highlighted": {
         "$value": "{color.Utilities.brand}"
       }
     },
-    "Utilities": {
+    "NonUtilities": {
       "brand": {
-        "$value": "black"
-      }
+        "$value": "white"
+      },
+      "brand2": {
+        "$value": "green"
+      },
     }
   }
 }
