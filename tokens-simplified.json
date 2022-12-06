@@ -2,15 +2,18 @@
   "color2": {
     "Blue3": {
       "Highlighted": {
+        "$type": "color",
         "$value": "{color.Utilities.brand}"
       }
     },
     "NonUtilities": {
       "brand": {
-        "$value": "white"
+        "$value": "white",
+        "$type": "color"
       },
       "brand2": {
-        "$value": "green"
+        "$value": "green",
+        "$type": "color"
       }
     }
   }
