@@ -1,0 +1,53 @@
+{
+  "base": {
+    "color": {
+      "$description": "All the base color tokens",
+      "$type": "color",
+      "green": {
+        "$description": "Our main green color",
+        "$value": "#16a34a"
+      },
+      "blue": {
+        "$value": "#2563EB"
+      }
+    },
+    "sizing": {
+      "$description": "All the base sizing tokens",
+      "$type": "dimension",
+      "small": {
+        "$value": "0.85rem"
+      },
+      "medium": {
+        "$value": "1rem"
+      },
+      "large": {
+        "$value": "1.25rem",
+        "$description": "For large sized text"
+      }
+    },
+    "font": {
+      "$description": "All the base font tokens",
+      "primary": {
+        "family": {
+          "$value": ["Helvetica", "Arial"],
+          "$type": "fontFamily"
+        },
+        "weight": {
+          "$value": 350,
+          "$type": "fontWeight"
+        }
+      }
+    },
+    "typography": {
+      "primary": {
+        "$value": {
+          "fontFamilyTwo": "{base.font.primary.family}",
+          "fontSize": "{base.sizing.medium}",
+          "fontWeight": "{base.font.primary.weight}",
+          "letterSpacing": "0px",
+          "lineHeight": "1"
+        }
+      }
+    }
+  }
+}
