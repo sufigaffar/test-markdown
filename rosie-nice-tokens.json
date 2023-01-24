@@ -5,7 +5,7 @@
     "palette": {
       "primary30": {
         "$type": "color",
-        "$value": "#FFFFFF"
+        "$value": "#GGGGGG"
       },
       "primary40": {
         "$type": "color",
