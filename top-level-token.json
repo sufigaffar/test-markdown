@@ -1,0 +1,6 @@
+{
+  "my token": {
+    "$value": "#aaaaaa",
+    "$type": "color"
+  }
+}
