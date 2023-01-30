@@ -1,4 +1,8 @@
 {
+  "my token": {
+    "$value": "#aaaaaa",
+    "$type": "color"
+  },
   "color2": {
     "Blue3": {
       "Highlighted": {
