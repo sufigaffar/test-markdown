@@ -7,3 +7,5 @@ Some text
 ![zeroheight logo](./zeroheight.png "zeroheight logo")
 
 ![zeroheight logo](https://raw.githubusercontent.com/sufigaffar/test-markdown/main/zeroheight.png "zeroheight logo")
+
+Edited file
