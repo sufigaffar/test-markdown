@@ -29,7 +29,7 @@
       },
       "primary90": {
         "$type": "color",
-        "$value": "#EADDFF"
+        "$value": "#AAAAAA"
       }
     },
     "backgrounds": {
@@ -39,7 +39,7 @@
       },
       "dark": {
         "$type": "color",
-        "$value": "#1B2430"
+        "$value": "#BBBBBB"
       },
       "light-primary": {
         "$type": "color",
