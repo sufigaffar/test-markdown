@@ -1,52 +1,105 @@
 {
   "base": {
     "color": {
-      "$description": "All the base color tokens",
       "$type": "color",
+      "$description": "All the base color tokens",
       "green": {
-        "$description": "Our main green color",
-        "$value": "#16a34a"
+        "$type": "color",
+        "$value": "#16A34A",
+        "$description": "Our main green color"
       },
       "blue": {
+        "$type": "color",
         "$value": "#000000"
       }
     },
     "sizing": {
-      "$description": "All the base sizing tokens",
       "$type": "dimension",
+      "$description": "All the base sizing tokens",
       "small": {
+        "$type": "dimension",
         "$value": "0.85rem"
       },
       "medium": {
+        "$type": "dimension",
         "$value": "1rem"
       },
       "large": {
+        "$type": "dimension",
         "$value": "1.25rem",
         "$description": "For large sized text"
       }
     },
     "font": {
-      "$description": "All the base font tokens",
-      "primary": {
-        "family": {
-          "$value": ["Helvetica", "Arial"],
-          "$type": "fontFamily"
-        },
-        "weight": {
-          "$value": 350,
-          "$type": "fontWeight"
-        }
-      }
+      "$description": "All the base font tokens"
     },
     "typography": {
       "primary": {
         "$value": {
-          "fontFamilyTwo": "{base.font.primary.family}",
           "fontSize": "{base.sizing.medium}",
           "fontWeight": "{base.font.primary.weight}",
-          "letterSpacing": "0px",
-          "lineHeight": "1"
+          "lineHeight": "1",
+          "fontFamilyTwo": "{base.font.primary.family}",
+          "letterSpacing": "0px"
         }
+      }
+    }
+  },
+  "Colors": {
+    "$type": "color",
+    "$description": "All the base color tokens",
+    "palette": {
+      "primary40": {
+        "$type": "color",
+        "$value": "#6750A4"
+      },
+      "primary50": {
+        "$type": "color",
+        "$value": "#826BBB"
+      },
+      "primary60": {
+        "$type": "color",
+        "$value": "#9C86D2"
+      },
+      "primary70": {
+        "$type": "color",
+        "$value": "#B6A1E9"
+      },
+      "primary80": {
+        "$type": "color",
+        "$value": "#D0BCFF"
+      },
+      "primary90": {
+        "$type": "color",
+        "$value": "#FF0000"
+      }
+    },
+    "backgrounds": {
+      "light": {
+        "$type": "color",
+        "$value": "#FAFAFA"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#1B2430"
+      },
+      "light-primary": {
+        "$type": "color",
+        "$value": "{Colors.palette.primary90}"
+      }
+    }
+  },
+  "Spacing": {
+    "$description": "Spacing stuff",
+    "margin": {
+      "small": {
+        "$value": "4px"
+      },
+      "medium": {
+        "$value": "12px"
+      },
+      "large": {
+        "$value": "24px"
       }
     }
   }
