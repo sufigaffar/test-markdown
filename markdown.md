@@ -1,6 +1,6 @@
 # This is the test markdown file
 
-Some text
+Some updated text
 
 [Some link](./markdown2.md)
 
