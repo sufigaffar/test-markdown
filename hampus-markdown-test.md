@@ -20,6 +20,6 @@ This is a paragraph formatted with multiple newlines
 ### Code 
 
 (strip out the escapes)
-\`\`\`javascript
+```javascript
 console.log('code some code')
-\`\`\`
+```
