@@ -22,4 +22,4 @@ This is a paragraph formatted with multiple newlines
 (strip out the escapes)
 \`\`\`javascript
 console.log('code some code')
-\` \` \`
+\`\`\`
